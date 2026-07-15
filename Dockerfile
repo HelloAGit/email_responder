@@ -20,20 +20,19 @@ COPY requirements.txt .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application code
-COPY responder.py .
-COPY index_emails.py .
+# Copy all python application files (responder, index, and accuracy modules)
+COPY *.py .
 COPY .env .
 
-# Copy data directory
+# Copy data directory (contains both past_emails.json and evaluation_set.json)
 COPY data ./data
 
 # Create db directory for Chroma persistence
 RUN mkdir -p db
 
-# Health check (optional)
+# Health check - verifies the responder can initialize without crashing
 HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
     CMD python -c "from responder import EmailResponder; EmailResponder()" || exit 1
 
-# Default command - runs the responder
+# Default command - runs the main responder
 CMD ["python", "responder.py"]
