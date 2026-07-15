@@ -1,0 +1,14 @@
+[
+  {
+    "incoming": "Hi team, what is your refund policy for the software?",
+    "reply": "Hi! We offer a full 14-day money-back guarantee. No questions asked. Just let us know and we'll process it immediately."
+  },
+  {
+    "incoming": "Can we schedule a demo call for this Thursday at 2 PM EST?",
+    "reply": "Hello. I'd be happy to. Thursday at 2 PM EST works perfectly for me. I will send over a calendar invite shortly."
+  },
+  {
+    "incoming": "Do you offer API access on the basic plan?",
+    "reply": "Thanks for reaching out! API access is only available on our Pro and Enterprise tiers. Let me know if you would like a trial of the Pro tier."
+  }
+]
