@@ -1,14 +1,30 @@
 [
   {
-    "incoming": "Hi team, what is your refund policy for the software?",
-    "reply": "Hi! We offer a full 14-day money-back guarantee. No questions asked. Just let us know and we'll process it immediately."
+    "incoming": "Hello, I made a purchase yesterday but I haven't received my license key yet. Can you please check on order #89231?",
+    "reply": "Hello! Thanks for reaching out. I've checked order #89231 and can confirm the payment went through successfully. Sometimes our automated delivery emails get flagged. I have manually resent your license key to this email address. Please check your spam folder if it doesn't show up in your inbox shortly!"
   },
   {
-    "incoming": "Can we schedule a demo call for this Thursday at 2 PM EST?",
-    "reply": "Hello. I'd be happy to. Thursday at 2 PM EST works perfectly for me. I will send over a calendar invite shortly."
+    "incoming": "Hi, is there any way to change the billing cycle of my subscription from monthly to annual? I don't see the setting in my dashboard.",
+    "reply": "Hi there! Yes, you can easily upgrade to an annual plan. Since our self-service portal is currently undergoing maintenance, I can make this change for you on our end. Please reply to this email confirming you authorize us to switch your plan, and we will apply the annual discount to your next billing cycle."
   },
   {
-    "incoming": "Do you offer API access on the basic plan?",
-    "reply": "Thanks for reaching out! API access is only available on our Pro and Enterprise tiers. Let me know if you would like a trial of the Pro tier."
+    "incoming": "Hey team, my team is growing and I need to add 5 more seats to our Pro subscription. How does the pricing scale?",
+    "reply": "Thanks for the message! Adding seats is simple. Under our Pro plan, each additional seat is priced at $12/month (billed pro-rata for the remainder of your current billing cycle). You can add them directly by navigating to Settings > Team > Invite Members in your dashboard. Let me know if you need any help with this."
+  },
+  {
+    "incoming": "I forgot my password and the reset link isn't arriving in my inbox. What should I do?",
+    "reply": "Hello. I'm sorry to hear you're locked out. I have verified your account and manually sent a temporary password reset link from our system. To protect your security, please use this link within 24 hours to set a new password. If you still don't receive it, let us know and we can verify your identity through alternative means."
+  },
+  {
+    "incoming": "Does your platform support integration with Slack or Microsoft Teams for real-time notifications?",
+    "reply": "Hi! Yes, we have native integrations with both Slack and Microsoft Teams. You can set up real-time notifications by going to Settings > Integrations in your dashboard, selecting your platform of choice, and authorizing the connection. Feel free to review our documentation guide if you need step-by-step assistance."
+  },
+  {
+    "incoming": "Hi there, I am trying to export our monthly reports to CSV, but the export button is greyed out. Is this a bug?",
+    "reply": "Hello. The CSV export feature is restricted to Admin and Owner roles. It looks like your user profile is currently set to 'Member'. Please reach out to your team's workspace administrator and ask them to update your permissions under Settings > Team to grant you exporting privileges."
+  },
+  {
+    "incoming": "I'm looking to cancel my account. I love the tool, but we no longer have the budget for it this quarter.",
+    "reply": "Hi, I'm sorry to hear that you have to leave us! I have successfully scheduled your account for cancellation at the end of your current billing cycle on the 30th. Your data will remain safe and exportable until then. If you ever decide to return, we would be thrilled to have you back."
   }
 ]
