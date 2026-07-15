@@ -1,4 +1,4 @@
-# email_responder
+# Email Responder
 
 Handling incoming emails and drafting suggested replies.
 
